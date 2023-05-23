@@ -1,0 +1,35 @@
+Name:Bindiya Lalwani
+Course:MCA
+Sem:2
+Roll no: 20
+Subject: OPERATING SYSTEMS
+ASSIGNMENT : Assignment-2
+
+*******************************************************************************************************************************************************************************
+8.Write a script that shows usernames and no. of processes running for
+them.
+================
+OPERATING SYSTEMS
+================
+echo "Username No of Processes"
+for curr_user in `who | cut -d " " -f 1`
+do
+        no_process=`ps -u $curr_user | awk 'END {print NR}'`
+        echo "$curr_user $no_process"
+done
+
+
+
+
+
+
+
+*******************************************************************************************************************************************************************************
+================
+OUTPUT
+================
+Username No of Processes
+mca2220 5
+mca2219 3
+mca2229 7
+mca2232 3

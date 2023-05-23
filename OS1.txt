@@ -1,0 +1,29 @@
+Name:Bindiya Lalwani
+Course:MCA
+Sem:2
+Roll no: 20
+Subject    : OPERATING SYSTEMS
+ASSIGNMENT : Assignment-2
+
+*******************************************************************************************************************************************************************************
+1.Write a script that takes file name from user and display all line
+starting with a or b or c. (Use grep/sed)
+================
+OPERATING SYSTEMS
+================
+echo "Enter file name:"
+read filename
+grep -i "^[abc]" $filename
+
+
+
+
+
+*******************************************************************************************************************************************************************************
+================
+OUTPUT
+================
+Enter file name:
+text.txt
+bindiya
+amisha

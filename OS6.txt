@@ -1,0 +1,31 @@
+Name:Bindiya Lalwani
+Course:MCA
+Sem:2
+Roll no: 20
+Subject: OPERATING SYSTEMS
+ASSIGNMENT : Assignment-2
+
+*******************************************************************************************************************************************************************************
+6.Write a script that takes file name from user and display all line start
+with space(‘ ‘) . (Use grep/sed)
+================
+OPERATING SYSTEMS
+================
+echo "Enter file name:"
+read filename
+grep "^ " $filename
+
+
+
+
+
+
+
+*******************************************************************************************************************************************************************************
+================
+OUTPUT
+================
+Enter file name:
+test1.txt
+ first line
+   third line
